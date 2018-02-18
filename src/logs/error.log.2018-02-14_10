@@ -1,0 +1,54 @@
+2018-02-14 17:43:17,200 ERROR manage.py [line:48]  20138 (check intervel failed)
+2018-02-14 17:43:47,319 ERROR manage.py [line:48]  20618 (check intervel failed)
+2018-02-14 17:44:13,848 ERROR manage.py [line:48]  21628 (check intervel failed)
+2018-02-14 17:45:08,002 ERROR manage.py [line:48]  22263 (check intervel failed)
+2018-02-14 17:45:40,813 ERROR manage.py [line:48]  22351 (check intervel failed)
+2018-02-14 17:46:01,342 ERROR manage.py [line:48]  23218 (check intervel failed)
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 46, in check_intervel
+    intervel = await checkIintervel.check_intervel()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 410, in check_intervel
+    (intervel, _) = await cur.fetchone()
+ValueError: not enough values to unpack (expected 2, got 1)
+2018-02-14 17:56:26,418 ERROR manage.py [line:23]  1785 register agent fail!
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 21, in controller
+    await performance.register()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 387, in register
+    return intervel
+NameError: name 'intervel' is not defined
+2018-02-14 17:57:16,669 ERROR manage.py [line:23]  2485 register agent fail!
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 21, in controller
+    await performance.register()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 387, in register
+    return intervel
+NameError: name 'intervel' is not defined
+2018-02-14 17:58:42,520 ERROR manage.py [line:23]  2591 register agent fail!
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 21, in controller
+    await performance.register()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 387, in register
+    return intervel
+NameError: name 'intervel' is not defined
+2018-02-14 17:59:18,472 ERROR manage.py [line:23]  3579 register agent fail!
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 21, in controller
+    await performance.register()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 387, in register
+    return intervel
+NameError: name 'intervel' is not defined
+2018-02-14 17:59:57,881 ERROR manage.py [line:23]  4154 register agent fail!
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 21, in controller
+    await performance.register()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 387, in register
+    return intervel
+NameError: name 'intervel' is not defined
+2018-02-14 18:11:33,366 ERROR manage.py [line:23]  5197 register agent fail!
+Traceback (most recent call last):
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/manage.py", line 21, in controller
+    await performance.register()
+  File "/home/dongxiaoyi/桌面/dbmonitor/src/agent/views/performance.py", line 387, in register
+    return intervel
+NameError: name 'intervel' is not defined
