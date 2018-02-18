@@ -1,2 +1,0 @@
-2018-02-09 15:28:13,387 ERROR performance.py [line:147]  19490 (SQL syntax error: INSERT INTO Performance(table, avgmicrosec, err_count, create_time) VALUES("dbmonitor", "1247", "15", "2018-02-09 15:28:13");)
-2018-02-09 15:29:33,372 ERROR performance.py [line:147]  20070 (SQL syntax error: INSERT INTO Performance(table, avgmicrosec, err_count, create_time) VALUES("dbmonitor", 1246, 15, "2018-02-09 15:29:33");)

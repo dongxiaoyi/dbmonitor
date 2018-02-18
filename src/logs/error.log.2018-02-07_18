@@ -1,3 +1,0 @@
-2018-02-08 01:16:13,379 ERROR performance.py [line:188]  20217 DBPools object's method add cant't be set
-2018-02-08 02:30:50,905 ERROR performance.py [line:170]  4389 KeyError: No pool named "c"
-2018-02-08 02:31:12,818 ERROR performance.py [line:170]  5008 (KeyError: No pool named "c")
